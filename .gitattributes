@@ -1,0 +1,2 @@
+newbox_name.box filter=lfs diff=lfs merge=lfs -text
+Centos7php7.box filter=lfs diff=lfs merge=lfs -text
