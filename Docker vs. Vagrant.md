@@ -1,5 +1,10 @@
 # Docker vs. Vagrant
- 	
+
+## before
+
+Vagrant was originally tied to VirtualBox, but version 1.1 added support for other virtualization software such as VMware and KVM, and for server environments like Amazon EC2.[5] Vagrant is written in Ruby, but it can be used in projects written in other programming languages such as PHP, Python, Java, C#, and JavaScript.[6][7] Since version 1.6, Vagrant natively supports Docker containers, which in some cases can serve as a substitute for a fully virtualized operating system.
+
+## About VM
 With the huge growth in virtualization and cloud computing, there has also been a correspondent increase in the average number of virtual machines (VM) that today’s admin has to manage. Manually creating a full VM on today’s virtualizers, like VMWare and Hyper-V, is a real pain because they have to take a snapshot of the entire machine config, and then replicate this to another machine. As you can imagine, VM images eat up a lot of space and time.
 
 But some bright spark observed how VM’s operate and decided the model needed improvement. You see, a virtualizer works by creating a package or image containing an entire OS and machine setup, including hard drive, virtual processors and network interfaces. This is inefficient – oftentimes what you really want to recreate is just the OS platform and some apps. Is there a better way of doing this? As it turns out yes, although with some caveats. And Docker and Vagrant are two such solutions that take different roads to solving the limitations of the traditional VM.
