@@ -1,5 +1,11 @@
 # Docker vs. Vagrant
 
+## History
+
+Vagrant was first started as a personal side-project by Mitchell Hashimoto in January 2010. The first version of Vagrant was released in March 2010. In October 2010, Engine Yard declared that they were going to sponsor the Vagrant project. The first stable version, Vagrant 1.0, was released in March 2012, exactly two years after the original version was released. In November 2012, Mitchell formed an organization called “HashiCorp” to support the full-time development of Vagrant; Vagrant remained liberally licensed open-source software. HashiCorp now works on creating commercial additions and provides professional support and training for Vagrant.
+
+Vagrant was originally tied to VirtualBox, but version 1.1 added support for other virtualization software such as VMware and KVM, and for server environments like Amazon EC2.[5] Vagrant is written in Ruby, but it can be used in projects written in other programming languages such as PHP, Python, Java, C#, and JavaScript.[6][7] Since version 1.6, Vagrant natively supports Docker containers, which in some cases can serve as a substitute for a fully virtualized operating system.[8]
+
 ## before
 
 Vagrant was originally tied to VirtualBox, but version 1.1 added support for other virtualization software such as VMware and KVM, and for server environments like Amazon EC2.[5] Vagrant is written in Ruby, but it can be used in projects written in other programming languages such as PHP, Python, Java, C#, and JavaScript.[6][7] Since version 1.6, Vagrant natively supports Docker containers, which in some cases can serve as a substitute for a fully virtualized operating system.
