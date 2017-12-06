@@ -1,5 +1,6 @@
 # You need to install guest editions. This different version maybe produce mount not working in guest additions.
 
+
 "The VirtualBox Guest Additions for all supported guest operating systems are provided as a single CD-ROM image file which is called VBoxGuestAdditions.iso. This image file is located in the installation directory of VirtualBox."
 create mount directory
 sudo mkdir -p /media/VirtualBoxGuestAdditions
