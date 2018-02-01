@@ -9,6 +9,8 @@ Vagrant.configure(2) do |config|
  
   config.vm.box = "./CentOS-7.1.1503-x86_64-netboot.box"
   config.vm.network "private_network", ip: "192.168.33.10"
+  config.vm.network "forwarded_port", guest: 9090, host: 9090
+  config.vm.network "forwarded_port", guest: 9091, host: 9091
   config.vm.synced_folder "../www/htdocs", "/opt/htdocs"
 
   config.vm.provider "virtualbox" do |vb|
