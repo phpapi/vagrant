@@ -4,7 +4,7 @@
 
 2.vagrant not support virtualbox 5.2 
 
-## useage
+## usage
 vagrant box add .\Centos7php7.box --name Centos7php7
 
 ## then
